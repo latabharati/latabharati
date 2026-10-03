@@ -56,13 +56,7 @@ The stacking model used predictions from multiple base models with **Logistic Re
 
 Because fraudulent transactions represent only a small percentage of the dataset, traditional accuracy was not sufficient. The models were therefore evaluated using:
 
-- **PR-AUC**
-- ROC-AUC
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-
+- **PR-AUC**, ROC-AUC, Precision, Recall, F1-score, Confusion Matrix
 Classification thresholds were selected using validation data rather than relying on the default **0.5 probability threshold**.
 
 ### 🏆 Key Results
@@ -81,20 +75,15 @@ Model performance was evaluated across different transaction time periods to inv
 ### 🔎 Explainable AI
 
 Implemented **SHAP (SHapley Additive exPlanations)** to understand how different features influenced fraud predictions.
-
 This allowed the system to provide insight into:
 
 - Important fraud indicators
 - Feature contributions
 - Reasons behind individual model predictions
 
----
-
 ## 🌐 Fraud Detection Web Application
 
-To take the project beyond a Jupyter Notebook, I built a **full-stack fraud monitoring web application**.
-
-The application was developed using:
+To take the project beyond a Jupyter Notebook, I built a **full-stack fraud monitoring web application**. The application was developed using:
 
 **Flask | Jinja2 | HTML | CSS | JavaScript**
 
@@ -116,7 +105,6 @@ Each transaction is automatically passed through the trained ML pipeline and cla
 ### ☁️ Deployment
 
 The application was:
-
 - Containerised for deployment
 - Configured with the trained machine learning pipeline
 - Deployed to **Google Cloud Run**
