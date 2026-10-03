@@ -1,6 +1,6 @@
 # Hi, I'm Lata 👋
 
-🎓 MSc Data Science student  
+🎓 MSc Data Science student at University of SUssex
 💻 Data Science | Machine Learning | Python | SQL  
 📍 United Kingdom
 
