@@ -29,7 +29,7 @@ Flask | Jinja2 | HTML | CSS | JavaScript | Git | Google Cloud Run
 
 # 🚀 Featured Projects
 
-## 💳 Fraudulent Customer Transaction Detection https://github.com/latabharati/project-fraudshield
+## 1. 💳 Fraudulent Customer Transaction Detection https://github.com/latabharati/project-fraudshield
 
 Developed an **end-to-end machine learning fraud detection system** using the **IEEE-CIS Fraud Detection dataset**, containing more than **590,000 transactions and 400+ features**.
 
@@ -145,7 +145,7 @@ This transformed the project from a machine learning experiment into a **working
 
 ---
 
-## 📉 Customer Churn Prediction
+## 2. 📉 Customer Churn Prediction
 
 Built a machine learning system to predict customers who are likely to leave a service.
 
@@ -161,20 +161,6 @@ Key areas explored:
 
 ---
 
-## 🌪 Hurricane Forecasting
-
-Developed a **7-day weather forecasting model using PyTorch neural networks**.
-
-The model predicts:
-
-- Rain rate
-- Wind speed
-- Wind direction
-- Surface air pressure
-
-Used historical weather sequences to generate future forecasts using deep learning.
-
----
 
 ## 📚 Currently Learning
 
