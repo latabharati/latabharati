@@ -1,4 +1,4 @@
-# Hi, I'm Lata 👋
+# Hi, I'm Lata
 
 🎓 MSc Data Science student at the **University of Sussex**  
 💻 Data Science | Machine Learning | Python | SQL  
