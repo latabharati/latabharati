@@ -81,7 +81,7 @@ This allowed the system to provide insight into:
 - Feature contributions
 - Reasons behind individual model predictions
 
-## 🌐 Fraud Detection Web Application
+## 🌐 Fraud Detection Web Application https://fraud-detection-app-626338298812.europe-west1.run.app/
 
 To take the project beyond a Jupyter Notebook, I built a **full-stack fraud monitoring web application**. The application was developed using:
 
