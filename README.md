@@ -1,6 +1,6 @@
 # Hi, I'm Lata 👋
 
-🎓 MSc Data Science student at University of SUssex
+🎓 MSc Data Science student at University of SUssex.   
 💻 Data Science | Machine Learning | Python | SQL  
 📍 United Kingdom
 
@@ -35,4 +35,4 @@ Machine learning project for predicting customer churn.
 
 ## Connect with me
 
-LinkedIn: [Your LinkedIn URL]
+LinkedIn: (https://www.linkedin.com/in/lata-bharati-04575a1a0/)
