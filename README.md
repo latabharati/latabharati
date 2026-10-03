@@ -29,7 +29,7 @@ Flask | Jinja2 | HTML | CSS | JavaScript | Git | Google Cloud Run
 
 # 🚀 Featured Projects
 
-## 💳 Fraudulent Customer Transaction Detection
+## 💳 Fraudulent Customer Transaction Detection https://github.com/latabharati/project-fraudshield
 
 Developed an **end-to-end machine learning fraud detection system** using the **IEEE-CIS Fraud Detection dataset**, containing more than **590,000 transactions and 400+ features**.
 
