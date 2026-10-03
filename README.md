@@ -1,100 +1,196 @@
 # Hi, I'm Lata 👋
 
-🎓 MSc Data Science student at University of SUssex.   
+🎓 MSc Data Science student at the **University of Sussex**  
 💻 Data Science | Machine Learning | Python | SQL  
-📍 United Kingdom
+📍 United Kingdom  
 
-## About Me
+## 👩‍💻 About Me
 
-- 🔭 Currently working on Machine Learning and Data Science projects
-- 🌱 Learning ML, NLP, Transformers & LLMs
-- 📊 Interested in Fraud Detection and Explainable AI
-- 🎯 Looking for Data Science / ML opportunities
+- 🔭 Currently working on **Machine Learning and Data Science projects**
+- 🌱 Learning **Machine Learning, NLP, Transformers and LLMs**
+- 📊 Interested in **Fraud Detection, Explainable AI and Predictive Modelling**
+- 🚀 Interested in building end-to-end ML solutions, from data preprocessing to deployment
+- 🎯 Looking for **Data Science / Machine Learning opportunities**
 
-## Tech Stack
+---
 
-Python | SQL | Pandas | NumPy | Scikit-learn | PyTorch | XGBoost | Git
+## 🛠 Tech Stack
 
-## Featured Projects
+**Languages:**  
+Python | SQL | JavaScript
 
-### 💳 Fraudulent Customer Transaction Detection
+**Data Science & Machine Learning:**  
+Pandas | NumPy | Scikit-learn | PyTorch | XGBoost | CatBoost | SHAP | SMOTE
 
-Developed an end-to-end machine learning system to detect fraudulent customer transactions using the IEEE-CIS Fraud Detection dataset, containing over 590,000 transactions and 400+ features.
+**Development & Deployment:**  
+Flask | Jinja2 | HTML | CSS | JavaScript | Git | Google Cloud Run
 
-What I built
+---
 
-Merged transaction and identity datasets and handled large-scale preprocessing, missing values, categorical variables, and feature engineering.
+# 🚀 Featured Projects
 
-Built and compared multiple supervised models:
+## 💳 Fraudulent Customer Transaction Detection
 
-Logistic Regression
+Developed an **end-to-end machine learning fraud detection system** using the **IEEE-CIS Fraud Detection dataset**, containing more than **590,000 transactions and 400+ features**.
 
-Random Forest
+The project focused not only on building predictive models, but also on handling real-world challenges such as **high-dimensional data, severe class imbalance, model explainability, threshold optimisation and deployment**.
 
-XGBoost
+### 🔍 Data Processing & Feature Engineering
 
-CatBoost
+- Merged large **transaction and identity datasets**
+- Processed more than **590,000 transaction records**
+- Worked with **400+ numerical and categorical features**
+- Handled missing values and high-dimensional data
+- Performed categorical encoding and numerical preprocessing
+- Created additional time-related features for transaction analysis
+- Used **StandardScaler** where appropriate
+- Applied **SMOTE only on training data** to prevent data leakage
 
-Multi-Layer Perceptron (MLP)
+### 🤖 Machine Learning Models
 
-Implemented unsupervised fraud detection approaches using:
+Built and compared several supervised learning models:
 
-Isolation Forest
+- Logistic Regression
+- Random Forest
+- XGBoost
+- CatBoost
+- Multi-Layer Perceptron (MLP)
 
-Autoencoder
+Also explored unsupervised fraud detection techniques using:
 
-Addressed severe class imbalance using SMOTE and appropriate train/test separation to avoid data leakage.
+- Isolation Forest
+- Autoencoder
 
-Used PR-AUC as the primary evaluation metric, as it is more informative than accuracy for highly imbalanced fraud datasets.
+### 🧠 Ensemble Learning
 
-Optimised classification thresholds using validation data rather than relying on the default 0.5 threshold.
+Implemented two ensemble approaches:
 
-Built ensemble models using Soft Voting and Stacking, with Logistic Regression as the stacking meta-model.
+- **Soft Voting Ensemble**
+- **Stacking Ensemble**
 
-Evaluated model reliability using bootstrap 95% confidence intervals for PR-AUC and ROC-AUC.
+The stacking model used predictions from multiple base models with **Logistic Regression as the meta-model**.
 
-Tested model performance over different transaction time periods to assess temporal stability.
+### 📊 Model Evaluation
 
-Applied SHAP explainability to understand which features influenced fraud predictions across different models.
+Because fraudulent transactions represent only a small percentage of the dataset, traditional accuracy was not sufficient.
 
-Key Achievement
+The models were therefore evaluated using:
 
-The Stacking Ensemble achieved the best overall PR-AUC of 0.4792, outperforming individual models including:
+- **PR-AUC**
+- ROC-AUC
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
 
-XGBoost: 0.4599 PR-AUC
+Classification thresholds were selected using validation data rather than relying on the default **0.5 probability threshold**.
 
-Random Forest: 0.4573 PR-AUC
+### 🏆 Key Results
 
-The stacking model also achieved a ROC-AUC of 0.8882.
+The **Stacking Ensemble achieved the strongest overall performance**:
 
-Production-style Web Application
+- **Stacking Ensemble PR-AUC: 0.4792**
+- **XGBoost PR-AUC: 0.4599**
+- **Random Forest PR-AUC: 0.4573**
+- **Stacking ROC-AUC: 0.8882**
 
-Built a full-stack fraud monitoring application using Flask, Jinja2 and JavaScript.
+I also used **bootstrap resampling** to calculate **95% confidence intervals** for PR-AUC and ROC-AUC.
 
-The application includes:
+Model performance was evaluated across different transaction time periods to investigate **temporal stability**.
 
-Real-time transaction monitoring
+### 🔎 Explainable AI
 
-Chronological replay of test transactions using Server-Sent Events (SSE)
+Implemented **SHAP (SHapley Additive exPlanations)** to understand how different features influenced fraud predictions.
 
-Automatic fraud scoring for incoming transactions
+This allowed the system to provide insight into:
 
-Manual transaction testing
+- Important fraud indicators
+- Feature contributions
+- Reasons behind individual model predictions
 
-Fraud analytics dashboard
+---
 
-Model explainability using SHAP
+## 🌐 Fraud Detection Web Application
 
-REST-style API demonstration
+To take the project beyond a Jupyter Notebook, I built a **full-stack fraud monitoring web application**.
 
-The application was containerised and deployed to Google Cloud Run, turning the machine learning project into a working end-to-end fraud detection system rather than only a notebook-based experiment.
+The application was developed using:
 
-### 📉 Customer Churn Prediction
-Machine learning project for predicting customer churn.
+**Flask | Jinja2 | HTML | CSS | JavaScript**
 
-### 🌪 Hurricane Forecasting
-7-day weather forecasting using PyTorch neural networks.
+### Web Application Features
 
-## Connect with me
+- 📡 **Real-time transaction monitoring**
+- 🔄 Chronological transaction replay using **Server-Sent Events (SSE)**
+- 🤖 Automatic machine learning fraud scoring
+- 🧪 Manual transaction testing
+- 📊 Interactive fraud analytics dashboard
+- 🔎 SHAP-based model explainability
+- 📈 Fraud probability and model prediction display
+- 🔌 REST-style API demonstration
 
-LinkedIn: (https://www.linkedin.com/in/lata-bharati-04575a1a0/)
+Transactions from the test dataset can be replayed chronologically through the application, simulating a **live transaction monitoring environment**.
+
+Each transaction is automatically passed through the trained ML pipeline and classified as potentially **fraudulent or legitimate**.
+
+### ☁️ Deployment
+
+The application was:
+
+- Containerised for deployment
+- Configured with the trained machine learning pipeline
+- Deployed to **Google Cloud Run**
+
+This transformed the project from a machine learning experiment into a **working end-to-end fraud detection system covering data processing, modelling, explainability, real-time monitoring and cloud deployment**.
+
+---
+
+## 📉 Customer Churn Prediction
+
+Built a machine learning system to predict customers who are likely to leave a service.
+
+Key areas explored:
+
+- Exploratory Data Analysis
+- Data preprocessing
+- Feature engineering
+- Class imbalance
+- Classification models
+- Model comparison
+- Precision, Recall, F1 and ROC-AUC evaluation
+
+---
+
+## 🌪 Hurricane Forecasting
+
+Developed a **7-day weather forecasting model using PyTorch neural networks**.
+
+The model predicts:
+
+- Rain rate
+- Wind speed
+- Wind direction
+- Surface air pressure
+
+Used historical weather sequences to generate future forecasts using deep learning.
+
+---
+
+## 📚 Currently Learning
+
+- Machine Learning
+- Deep Learning
+- Natural Language Processing
+- Transformers
+- Large Language Models
+- Probability & Statistics
+- Data Structures & Algorithms
+- SQL
+
+---
+
+## 🤝 Connect With Me
+
+### LinkedIn
+
+[linkedin.com/in/lata-bharati-04575a1a0](https://www.linkedin.com/in/lata-bharati-04575a1a0/)
