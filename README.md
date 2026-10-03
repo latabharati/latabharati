@@ -8,7 +8,6 @@
 
 - 🔭 Currently working on **Machine Learning and Data Science projects**
 - 🌱 Learning **Machine Learning, NLP, Transformers and LLMs**
-- 📊 Interested in **Fraud Detection, Explainable AI and Predictive Modelling**
 - 🚀 Interested in building end-to-end ML solutions, from data preprocessing to deployment
 - 🎯 Looking for **Data Science / Machine Learning opportunities**
 
@@ -48,33 +47,14 @@ The project focused not only on building predictive models, but also on handling
 
 ### 🤖 Machine Learning Models
 
-Built and compared several supervised learning models:
-
-- Logistic Regression
-- Random Forest
-- XGBoost
-- CatBoost
-- Multi-Layer Perceptron (MLP)
-
-Also explored unsupervised fraud detection techniques using:
-
-- Isolation Forest
-- Autoencoder
-
-### 🧠 Ensemble Learning
-
-Implemented two ensemble approaches:
-
-- **Soft Voting Ensemble**
-- **Stacking Ensemble**
-
+- Supervised: Logistic Regression, Random Forest, XGBoost, CatBoost, Multi-Layer Perceptron (MLP)
+- Unsupervised: Isolation Forest, Autoencoder
+- Ensemble Learning: Soft Voting, Stacking
 The stacking model used predictions from multiple base models with **Logistic Regression as the meta-model**.
 
 ### 📊 Model Evaluation
 
-Because fraudulent transactions represent only a small percentage of the dataset, traditional accuracy was not sufficient.
-
-The models were therefore evaluated using:
+Because fraudulent transactions represent only a small percentage of the dataset, traditional accuracy was not sufficient. The models were therefore evaluated using:
 
 - **PR-AUC**
 - ROC-AUC
